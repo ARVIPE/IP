@@ -3,20 +3,27 @@
 using namespace std;
 int main(){
 float a,b,c;
-cout<<"Introduzca 3 números"<<endl;
+cout<<"Introduzca tres números"<<endl;
 cin>>a;
-cout<<"Introduzca el segundo"<<endl;
+cout<<"Introduzca el segundo número"<<endl;
 cin>>b;
-cout<<"Introduzca el tercero"<<endl;
+cout<<"Introduzca el tercer número"<<endl;
 cin>>c;
-if(a > b > c){
-cout<<"El número mayor es: "<<a<<endl;
-}
-if(b > a > c){
-cout<<"El número mayor es: "<<b<<endl;
-}
-if(c > a > b){
-cout<<"El número mayor es: "<<c<<endl;
-}
 
+if(a>b && a>c){
+cout<<"El número mayor es a: "<<a<<endl;
+}else{
+	if(b>a && b>c){
+		cout<<"El número mayor es b: "<<b<<endl;
+	}else{
+		if(c>a && c>b){
+			cout<<"El número mayor es c: "<<c<<endl;
+		}else{
+			cout<<"Hay números que se repiten"<<endl;
+		}		
+
+
+	}
+
+}
 }

@@ -12,6 +12,6 @@ cin>>c;
 cout<<"Introduzca el cuarto"<<endl;
 cin>>d;
 float resultado = (a+b+c+d)/4;
-cout<<resultado<<endl;
+cout<<"EL resultado de la media es: "<<resultado<<endl;
 
 }
