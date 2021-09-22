@@ -3,14 +3,12 @@ using namespace std;
 int main(){
 
 int num;
-int contador = 0;
 cout<<"Introduzca un número"<<endl;
 cin>>num;
+int contador = num;
 cout<<"Los divisores son: "<<endl;
 
 do{
-
-contador++;
 
 int division = num % contador;
 
@@ -20,7 +18,9 @@ cout<<contador<<endl;
 
 }
 
-}while(contador <= num);
+contador--;
+
+}while(contador > 0);
 
 
 
