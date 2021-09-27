@@ -9,7 +9,7 @@ siguiente=1;
 cout<<"Introduzca un número"<<endl;
 cin>>terminos;
 
-if(terminos==1){
+if(terminos==1){ 	
 cout <<anterior;
 }
 if(terminos==2){

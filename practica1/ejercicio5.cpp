@@ -7,7 +7,8 @@ cout<<"Introduzca un numero entero"<<endl;
 cin>>num;
 if(num> 0){
 cout<<"El numero es mayor que cero"<<endl;
-}else{
+}
+if(num< 0){
 cout<<"El numero es menor que cero"<<endl;
 }
 if(num == 0){
