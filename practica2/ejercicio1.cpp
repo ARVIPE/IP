@@ -8,19 +8,19 @@ int contador = 0;
 float resultado = 0;
 float media = 0;
 
-do{
+while(num>0){
 
 cin>>num;
 
-resultado +=num;
-
+if(num > 0){
 contador++;
+resultado +=num;
+}
 
 
-media = resultado/(contador-1);
 
-
-}while(num > 0);
+}
+media = resultado/(contador);
 
 cout<<media<<endl;
 
