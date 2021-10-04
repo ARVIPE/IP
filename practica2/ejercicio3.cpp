@@ -5,7 +5,7 @@ cout<<"Introduzca un número para conocer su factorial"<<endl;
 
 int num;
 int f;
-int resultado = 1;
+double resultado = 1;
 
 cin>>num;
 
