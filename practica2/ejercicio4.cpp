@@ -15,6 +15,7 @@ while(f>0){
 	
 if(f%2 != 0){
 resultado=resultado+f;
+cout<<f<<",";
 }
 f=f-1;
 	
