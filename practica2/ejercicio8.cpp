@@ -6,7 +6,7 @@ double terminos,anterior,siguiente,n,suma;
 anterior=0;
 siguiente=1;
 
-cout<<"Introduzca un nÃºmero"<<endl;
+cout<<"Introduzca un número"<<endl;
 cin>>terminos;
 
 if(terminos==1){ 	

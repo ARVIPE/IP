@@ -2,30 +2,25 @@
 using namespace std;
 int main(){
 
-int n, contador = 1;
+int suma = 0, num = 0;
+cout<<"Introduzca un numero";
+cin>>num;
 
-cout<<"Introduzca un número"<<endl;
-cin>>n;
+for(int i = 1; i <= num; i++){
 
-do{
+if(i%2==0 or i%3==0){
+cout<<i<<", ";
+suma = suma+i;
 
-contador++;
-
-if(contador%2 == 0){
-
-cout<<contador;
-
-}else{
-
-if(contador%3 == 0){
-cout<<contador;
-
-}
 
 }
 
 
-}while(contador < n);
+
+}
+
+cout<<"La suma de todos los numeros es: "<<suma<<endl;
+
 
 
 }
