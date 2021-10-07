@@ -5,20 +5,18 @@ int main(){
 int num;
 cout<<"Introduzca un número"<<endl;
 cin>>num;
-int contador = 1;
 cout<<"Los divisores son: "<<endl;
 
-while(contador <= num){ 
+for(int i = 1; i<=num; i++){
 
-int division = num % contador;
+int division = num % i;
 
 if(division == 0){
 
-cout<<contador<<endl;
+cout<<i<<endl;
 
 }
 
-contador++;
 
 }
 

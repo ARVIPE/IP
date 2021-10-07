@@ -3,10 +3,10 @@ using namespace std;
 
 int main(){
 
-int a, b= 0;
+int b= 0;
 cout<<"Introduzca numeros o cero para cerrar"<<endl;
 
-while(a>0){
+for(int a; a>0;){
 cin>>a;
 
 
