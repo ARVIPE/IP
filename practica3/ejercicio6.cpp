@@ -21,12 +21,15 @@ cout<<"El numero secreto es menor"<<endl;
 cout<<"El numero secreto es mayor"<<endl;
 }
 
-cout<<"secreto:"<<secreto<<endl;
 
 
 
 }while(num != secreto);
 
+if(num == secreto){
+cout<<"Has ganado!!"<<endl;
+
+}
 
 
 
