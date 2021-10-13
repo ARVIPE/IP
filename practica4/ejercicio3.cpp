@@ -2,16 +2,21 @@
 using namespace std;
 int factorial(int v){
 
+int fact=1;
+
 if(v<0){
-v=0;
-} else if(v==0){
-v=1;
-}else{ 
-	for(int i = 1; i <=v; i++){
-		v= v*i;
-		return v;
+fact = 0;
+}else{
+
+for(int i = v; i != 0; i--){
+		fact= fact*i;
 	}
+
 }
+
+
+return fact;
+
 }
 
 

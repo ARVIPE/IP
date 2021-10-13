@@ -17,17 +17,27 @@ for(int i=1; v!=i; i++){
 
 return res;
 }
+
+void primos(int n){
+do{
+bool ep=esprimo(n);
+if(ep==false){
+cout<<n<<endl;
+}
+n--;
+
+}while(n>=1);
+
+
+}
+
+
 int main(){
 int n;
 cout<<"Introduzca un valor"<<endl;
 cin>>n;
-bool ep=esprimo(n);
-if(ep==true){
-cout<<"El valor no es primo"<<endl;
-}
-else{
-cout<<"El valor es primo"<<endl;
-}
+primos(n);
+
 	cin.ignore(); 
 	cin.get();
 
