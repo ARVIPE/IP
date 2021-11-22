@@ -50,7 +50,6 @@ do{
 							cin>>alumnos[na].nota;
 							na++;
 
-
 						}
 		
 			}break;
